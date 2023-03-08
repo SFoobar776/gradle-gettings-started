@@ -58,7 +58,7 @@ public class HerokuApplication {
     String s = "";
     Random rnd = new Random();
     String[] letters = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","x","y","z"};
-    for (int i; i<10; i++)
+    for (int i=0; i<10; i++)
       s+=letters[rnd.nextInt(26)];
     return s;
   }
